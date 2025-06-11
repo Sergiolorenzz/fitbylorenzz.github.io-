@@ -6,7 +6,11 @@
   <title>Mi Sitio Moderno</title>
 </head>
 <body>
-  <h1>¡Bienvenido a mi sitio!</h1>
-  <p>Aquí pondré mis productos, información sobre mí y un formulario de suscripción.</p>
+ <h1>¡Bienvenido a mi sitio!</h1>
+<form name="newsletter" netlify>
+  <label for="email">Suscríbete a mi newsletter:</label><br>
+  <input type="email" id="email" name="email" required placeholder="tu@correo.com">
+  <button type="submit">Suscribirme</button>
+</form>
 </body>
 </html>
